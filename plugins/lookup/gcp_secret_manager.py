@@ -54,7 +54,7 @@ DOCUMENTATION = '''
         service_account_info:
             description:
             - JSON Object representing the contents of a service_account_file obtained from Google Cloud
-            - defaults to OS_ENV_SERVICE_ACCOUNT_INFO if not present
+            - defaults to OS env variable GCP_SERVICE_ACCOUNT_INFO if not present
             type: jsonarg
             required: False
         errors:
